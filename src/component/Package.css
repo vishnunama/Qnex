@@ -1,0 +1,180 @@
+.package-iner-main {
+  position: relative;
+  padding: 20px;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  transition: transform 0.4s ease, background 0.4s ease;
+  justify-content: space-between;
+  margin: 0px 60px 20px 60px;
+  border-radius: 40px;
+  padding: 20px;
+  align-items: center;
+  /* , alignItems:"center", */
+}
+
+.plan-text-in {
+  padding: 5px 13px;
+  border-radius: 18px;
+  font-weight: bold;
+  white-space: nowrap;
+  font-size: clamp(14px, 2vw, 15px);
+}
+
+.plan-text-in-1 {
+  padding: 5px 13px;
+  border-radius: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+  font-size: clamp(14px, 2vw, 15px);
+}
+
+.plan-details {
+  gap: 40px;
+  justify-content: end;
+  display: flex;
+}
+
+@media (max-width: 957px) {
+  .plan-details {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 838px) {
+  .plan-text-in-1 {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .package-iner-main {
+    margin: 20px 10px;
+    flex-direction: column;
+    justify-content: flex-start; /* Align the content to the left */
+    align-items: normal;
+  }
+
+  .plan-details {
+    margin-top: 20px;
+    gap: 40px; /* Optional: You can adjust this if needed */
+    justify-content: flex-start; /* Align items to the left */
+  }
+  .packge-inner {
+    margin: 0px !important;
+    padding: 0px 20px !important;
+    width: fit-content;
+    /* margin: auto; */
+  }
+  .svg-icon-inner-main {
+    display: none;
+  }
+
+  .main-data-packge {
+    margin: 100px 20px !important;
+  }
+  .fa-icon-all {
+    font-size: 200px !important;
+  }
+  .fa-icon-all-in {
+    font-size: 120px !important;
+  }
+  .all-icon-inner-main {
+    margin-top: 50px;
+  }
+  .main-how-it-work {
+    margin: 70px 20px !important;
+  }
+}
+
+@media (max-width: 758px) {
+  .item-logo-otc {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    /* font-size: 200px; */
+  }
+  .fa-box-icon {
+    /* font-size: 200px !important; */
+    width: 200px;
+    height: 200px;
+  }
+  .main-data-packge {
+    margin: 10px 20px !important;
+  }
+  .main-height-icon {
+    height: 100px !important;
+  }
+  .main-height-icon-1 {
+    height: 140px;
+  }
+}
+
+@media (max-width: 508px) {
+  .fa-box-icon {
+    font-size: 300px !important;
+  }
+
+  .blue-text-main {
+    max-width: 250px;
+    width: 100%;
+    line-height: 1.6rem;
+  }
+  .font-size-inner-main {
+    width: 100% !important;
+    max-width: 330px !important;
+    font-size: 2rem !important;
+  }
+
+  .font-size-inner-2 {
+    width: 100% !important;
+    max-width: 300px !important;
+  }
+}
+
+.font-heading-inner {
+  font-size: clamp(1.4rem, 2vw, 1.8rem);
+}
+
+.plan-text-in {
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+.plan-text-in-1 {
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+.main-price-all {
+  font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+.package-iner-main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: transform 0.2s ease;
+  z-index: 0;
+}
+
+.package-iner-main:hover::before {
+  transform: scale(1);
+}
+
+.package-iner-main:hover {
+  transform: scale(1.01);
+}
+
+/* Ensure inner content remains visible above the overlay */
+.package-iner-main > * {
+  position: relative;
+  z-index: 1;
+}

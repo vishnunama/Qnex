@@ -1,0 +1,16 @@
+.faq-container {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.faq-answer {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
+  padding: 0 20px;
+}
+
+.faq-answer.show {
+  height: auto; /* Automatically adjusts to content height */
+  padding: 10px 20px;
+}

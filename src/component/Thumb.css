@@ -1,0 +1,75 @@
+.thumb-container {
+  background-color: #16182d; /* Matches the dark background color */
+  border-radius: 10px; /* Adds the rounded edges */
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.thumb-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* gap: 20px; */
+  justify-content: space-around;
+}
+
+.thumb-image {
+  width: 300px;
+  height: auto;
+}
+
+.thumb-text {
+  /* margin-bottom: 100px; */
+  margin-right: 130px;
+  text-align: left;
+  color: white;
+}
+
+.thumb-text h2 {
+  /* padding: 20px; */
+  font-size: 3rem;
+  margin-bottom: 20px !important;
+}
+
+.thumb-button {
+  background: linear-gradient(146deg, #0146fe 37%, #4b0d99 87%);
+  border: none;
+  border-radius: 50px;
+  padding: 15px 35px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 1000px) {
+  .thumb-text {
+    /* margin-bottom: 100px; */
+    margin-right: 0px !important;
+    /* text-align: left; */
+    /* color: white; */
+  }
+}
+
+@media (max-width: 800px) {
+  .thumb-content {
+    flex-direction: column;
+  }
+  .thumb-image {
+    padding: 20px 40px !important;
+    max-width: 300px;
+    width: 100%;
+  }
+  .thumb-button {
+    padding: 15px 30px !important;
+  }
+  .thumb-container {
+    margin: 0px 10px !important;
+  }
+}

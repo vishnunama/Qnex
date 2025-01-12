@@ -1,0 +1,19 @@
+body {
+  min-height: 100vh;
+  /* Ensure body is at least the height of the viewport */
+  margin: 0;
+  /* Remove default margin */
+  background: linear-gradient(rgba(10, 11, 28, 0.9), rgba(10, 11, 28, 0.9)),
+    url(/src/assets/hero_bg.jpg) no-repeat center center, #0a0a1b;
+  /* Add the solid color as fallback */
+  background-size: cover, cover, auto;
+  /* Set size for each layer */
+  background-repeat: no-repeat, no-repeat, repeat;
+  /* Repeat only solid color */
+  background-attachment: fixed;
+  /* Fix the gradient and image while scrolling */
+  background-position: center, center, center;
+  /* Position layers correctly */
+  color: #fff;
+  font-family: "Poppins", Sans-serif;
+}

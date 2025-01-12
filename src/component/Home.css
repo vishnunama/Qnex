@@ -1,0 +1,86 @@
+.home-main-container {
+  background-image: url(/my-vite-react-app/src/assets/hero_bg.jpg);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  /* border: 1px solid; */
+  /* padding: 0px 150px 0px 150px; */
+}
+.main-inner-text {
+  /* font-size: clamp(2.6rem,2vw,3.8rem); */
+  font-size: 4.3rem;
+  font-weight:900
+}
+
+.img-header-logo {
+  width: 70px;
+}
+.header-title-in a {
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  /* font-size: 1.3rem; */
+  font-weight: 600;
+}
+
+.font-telegram {
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+}
+
+.telegram-bot-btn {
+  border-radius: 50px;
+  height: 3rem;
+  padding: 0px 20px;
+}
+
+@media (max-width: 750px) {
+  .telegram-bot-btn {
+    height: 2rem;
+    padding-right: 30px;
+  }
+  .header-title-in a {
+    display: none;
+  }
+    .main-inner-text {
+      padding: 0px 10px;
+      /* font-size: clamp(2.6rem,2vw,3.8rem); */
+      font-size: 2.6rem;
+      font-weight: 900;
+    }
+}
+
+.packge-inner {
+  margin-left: 13%;
+  margin-top: 100px;
+  display: flex;
+  /* border: 1px solid; */
+  max-width: 600px;
+  /* width: 100%; */
+}
+@media(max-width: 500px){
+  .main-header-logo-contanier {
+
+    margin: 10px 30px !important;
+  }
+.img-header-logo{
+  width: 90px !important;
+  /* width: 100%; */
+}
+.Select-Your-heading{
+  max-width: 250px;
+  width: 100%;
+}
+
+.packge-inner {
+  
+  margin-top: 50px !important;
+  line-height: 2.6rem;
+  
+  /* width: 100%; */
+}
+}
+
+

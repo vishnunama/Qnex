@@ -1,0 +1,97 @@
+.three-plan-main-in {
+  background: linear-gradient(rgba(10, 11, 28, 0.9), rgba(10, 11, 28, 0.9)),
+    url(src/assets/plan-banner.png) no-repeat center center, #0a0a1b; /* Add the solid color as fallback */
+  background-size: cover, cover, auto; /* Set size for each layer */
+  background-repeat: no-repeat, no-repeat, repeat; /* Repeat only solid color */
+  background-position: center, center, center; /* Position layers correctly */
+  color: #fff;
+  font-family: "Poppins", Sans-serif;
+}
+
+.plan-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  padding-bottom: 80px;
+}
+
+.plan-details-inner-in h1 {
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+
+.plan-details-inner-in span {
+  color: #0047ff;
+  letter-spacing: 1.6px;
+  font-weight: 600;
+}
+
+/* .plan-details h1{
+
+} */
+
+.main-plan-container {
+  background-color: #16182d;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  /* margin: 50px 10px; */
+  /* justify-content: center; */
+}
+
+.tex-plan-mainner {
+  background-color: #16182d;
+  padding: 10px 20px;
+  /* margin-top: 20px; */
+}
+.tex-plan-mainner-1 {
+  background-color: #16182d;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+}
+.tex-plan-mainner-2 {
+  background-color: #16182d;
+  padding: 10px 20px;
+}
+
+@media (max-width: 800px) {
+  .flex-main-plan-inner {
+    margin: 50px 20px !important;
+    flex-direction: column;
+  }
+  .main-plan-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .button-inner-in {
+    margin: 10px !important;
+  }
+  .button-100 {
+    max-width: 300px;
+    width: 100%;
+  }
+  .plan-inner {
+    height: 30vh !important;
+  }
+}
+
+@media (min-width: 800px) {
+  .all-button-inner {
+    margin-right: 180px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* पहला कॉलम 2 भाग और दूसरा 1 भाग */
+    gap: 16px; /* कॉलम के बीच गैप */
+  }
+}
+
+.button-inner-in {
+  margin: 0px;
+  font-size: clamp(8px, 3vw, 12px);
+  white-space: nowrap;
+  padding: 8px 8px;
+  text-align: center;
+  background-color: #0a0a1b;
+  border-radius: 20px;
+}
