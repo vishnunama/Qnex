@@ -22,7 +22,7 @@ function Header() {
         
           style={{ width: "80px" }}
           className="img-header-logo"
-          src="/src/assets/mybita-logo.png"
+          src="img/mybita-logo.png"
           alt="logo"
         />
         </Link>
@@ -57,10 +57,10 @@ function Header() {
           }}
         >
           <FaTelegram />
-          <a
+          <a href="https://t.me/+3lFtZHNgFks4NGM1" target='blank'
             className="font-telegram"
             style={{ textDecoration: "none", outline: "none", color: "#fff" }}
-            href=""
+           
           >
             Telegram Bot
           </a>

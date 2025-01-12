@@ -26,7 +26,7 @@ function Home() {
                     <div style={{display:"flex", justifyContent:"center"}}>
                          <div style={{display:"flex", gap:"5px", border:"2px solid #fff", alignItems:"center", borderRadius:"50px", height:"3.1rem", padding:"0px 20px"}}>
                             <FaTelegram  />
-                            <a className='font-telegram-1' style={{ textDecoration:"none", outline:"none", color:"#fff"}} href="">Telegram Channel </a>
+                            <a className='font-telegram-1' style={{ textDecoration:"none", outline:"none", color:"#fff"}} href="https://t.me/+3lFtZHNgFks4NGM1" target='blank' >Telegram Channel </a>
                         </div>
                         </div>
         </div>

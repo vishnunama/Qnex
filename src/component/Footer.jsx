@@ -15,7 +15,7 @@ function Footer() {
          <img
           style={{ width: "70px" }}
           className="img-header-logo"
-          src="/src/assets/mybita-logo.png"
+          src="img/mybita-logo.png"
           alt="logo"
         />
         <div style={{marginTop:"20px", color:"#9CA0D2"}}>©2024-25 Qnex, All Rights Reserved By Qnex.</div>

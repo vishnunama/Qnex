@@ -16,9 +16,11 @@ const OTC15DayPackage = () => {
           Software Setup
         </p>
         <div className="button-wrapper-for-support-team">
+         <a href="https://t.me/+3lFtZHNgFks4NGM1" target='blank'>
           <button className="action-button-for-support-team">
             Support Team
           </button>
+          </a>
         </div>
         </div>
       
@@ -29,7 +31,7 @@ const OTC15DayPackage = () => {
         <div className="list-of-payment-methods-for-qnex">
           <Link to="PayToTrc20" className="individual-payment-method-wrapper">
             <img
-              src="./src/assets/icon-usdt.png"
+              src="img/icon-usdt.png"
               alt="Tether"
               className="icon-for-payment-method-logo"
             />
@@ -40,7 +42,7 @@ const OTC15DayPackage = () => {
           </Link>
             <Link to="PayToBep20" className="individual-payment-method-wrapper">
             <img
-              src="./src/assets/icon-usdt.png"
+              src="img/icon-usdt.png"
               alt="Tether"
               className="icon-for-payment-method-logo"
             />
@@ -51,7 +53,7 @@ const OTC15DayPackage = () => {
           </Link>
            <Link to="PayTobtc" className="individual-payment-method-wrapper">
             <img
-              src="./src/assets/icon-btc.png"
+              src="img/icon-btc.png"
               alt="Tether"
               className="icon-for-payment-method-logo"
             />

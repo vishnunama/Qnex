@@ -136,16 +136,18 @@ function PayTobtc() {
           Software Setup
         </p>
         <div className="button-wrapper-for-support-team-1">
-          <button className="action-button-for-support-team-1">
+          <a href="https://t.me/+3lFtZHNgFks4NGM1" target='blank'>
+          <button className="action-button-for-support-team">
             Support Team
           </button>
+          </a>
         </div>
         </div>   
 
         <div className="qe-code-main" style={{display:"flex", gap:"30px", margin:"50px 20px"}}>
-            <img style={{width:"230px", }} src="/src/assets/btcqr.jpg" alt="www" />
+            <img style={{width:"230px", }} src="/img/btcqr.jpg" alt="www" />
             <div className="qe-code-main-inner" style={{display:"flex", gap:"20px"}}>
-                <img style={{width:"54px", height:"54px"}} src="/src/assets/icon-btc.png" alt="" />
+                <img style={{width:"54px", height:"54px"}} src="/img/icon-btc.png" alt="" />
                 <div style={{textAlign:"end"}}>Only send Tether to this address</div>
             </div>
             </div>  

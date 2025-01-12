@@ -9,7 +9,7 @@ function Package() {
     <div>
     <div className='package-iner-main' style={{display:"flex", background:"#14162C"}}>
         <div style={{display:"flex", gap: "20px"}}>
-          <img style={{width:"100px",height:"100px"}} src="/src/assets/coin.png" alt="" />
+          <img style={{width:"100px",height:"100px"}} src="img/coin.png" alt="" />
           <div>
             <h2 className='font-heading-inner'>QNEX OTC DATA PACKAGE</h2>
             <span className="main-price-all">Best Price $49</span>
@@ -23,7 +23,7 @@ function Package() {
     </div>
      <div className='package-iner-main' style={{display:"flex", background:"#14162C"}}>
         <div style={{display:"flex", gap: "20px"}}>
-          <img style={{width:"100px",height:"100px"}} src="/src/assets/coin.png" alt="" />
+          <img style={{width:"100px",height:"100px"}} src="img/coin.png" alt="" />
           <div>
             <h2 className='font-heading-inner'>QNEX OTC DATA PACKAGE</h2>
             <span className='main-price-all'>
@@ -40,7 +40,7 @@ function Package() {
     </div>
      <div className='package-iner-main' style={{display:"flex", background:"#14162C"}}>
         <div style={{display:"flex", gap: "20px"}}>
-          <img style={{width:"100px",height:"100px"}} src="/src/assets/coin.png" alt="" />
+          <img style={{width:"100px",height:"100px"}} src="img/coin.png" alt="" />
           <div>
             <h2 className='font-heading-inner'>QNEX OTC DATA PACKAGE</h2>
            <span className='main-price-all'>

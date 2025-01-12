@@ -8,15 +8,15 @@ function Thumb() {
     <div className="thumb-container">
       <div className="thumb-content">
         <img
-          src="/src/assets/thumb.png"
+          src="img/thumb.png"
           alt="Hand holding a phone"
           className="thumb-image"
         />
         <div className="thumb-text">
           <h2>Contact Now</h2>
-          <button className="thumb-button">
+          <a style={{textDecoration:"none"}} href="https://t.me/+3lFtZHNgFks4NGM1" target='blank' className="thumb-button">
             <HiOutlineRocketLaunch /> Telegram Support
-          </button>
+          </a>
         </div>
       </div>
     </div>

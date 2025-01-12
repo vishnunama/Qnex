@@ -4,7 +4,7 @@ body {
   margin: 0;
   /* Remove default margin */
   background: linear-gradient(rgba(10, 11, 28, 0.9), rgba(10, 11, 28, 0.9)),
-    url(/src/assets/hero_bg.jpg) no-repeat center center, #0a0a1b;
+    url(img/hero_bg.jpg) no-repeat center center, #0a0a1b;
   /* Add the solid color as fallback */
   background-size: cover, cover, auto;
   /* Set size for each layer */

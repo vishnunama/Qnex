@@ -18,7 +18,7 @@ function PlanThree() {
     </div>
     <div className='flex-main-plan-inner' style={{display:"flex", margin:"50px", gap:"40px"}}>
     {/* <div className='main-plan-container' style={{display:"flex", alignItems:"flex-start", gap:"10px", borderRadius:"20px"}}>
-        <img style={{width:"80px", height:"80px"}} src="/src/assets/coin.png" alt="" />
+        <img style={{width:"80px", height:"80px"}} src="img/coin.png" alt="" />
         <div  >
         <h2>QNEX OTC DATA PACKAGE</h2>
         <span>Fastest Network</span>
@@ -26,7 +26,7 @@ function PlanThree() {
     </div> */}
 <div style={{borderRadius:"20px"}}  className='tex-plan-mainner'>
      <div className='main-plan-item' style={{borderRadius:"20px", display:"flex", gap:"10px", marginTop:"15px"}}  >
-        <img style={{width:"80px", height:"80px"}} src="/src/assets/coin.png" alt="" />
+        <img style={{width:"80px", height:"80px"}} src="img/coin.png" alt="" />
         <div>
         <div style={{fontSize:"clamp(1.5rem, 2vw, 1.9rem)", fontWeight:"bold"}}>QNEX OTC DATA PACKAGE</div>
         <span style={{fontSize:"clamp(5px, 3vw, 1rem)",}}>Fastest Network</span>
